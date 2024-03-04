@@ -5,6 +5,7 @@ endif
 
 " Remap <Space> key to mapleader
 "
+echo "ASDF"
 nnoremap <Space> <Nop>
 let g:mapleader=" "
 
