@@ -6,8 +6,7 @@ endif
 " Remap <Space> key to mapleader
 "
 echo "ASDF"
-nnoremap <Space> <Nop>
-let g:mapleader=" "
+nnoremap <Space> <Leader>
 
 "command! -nargs=* -complete=custom,v:lua.require'neo-tree.command'.complete_args
 "command! -nargs=* NvSpaceSetup lua require("nv-space").setup()
