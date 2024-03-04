@@ -1,11 +1,5 @@
 local function setup(config)
-    print("HERE")
-    print(config)
-    if config == nil then
-        return
-    end
-    print("THERE")
-    print(config)
+    vim.g.mapleader = '<SPACE>'
 end
 
 return {
