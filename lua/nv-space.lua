@@ -1,10 +1,13 @@
-local M = {}
-
-function M.setup(config)
+local function setup(config)
+    print("HERE")
+    print(config)
     if config == nil then
         return
     end
-    print("HERE")
+    print("THERE")
+    print(config)
 end
 
-return M
+return {
+    setup = setup
+}
